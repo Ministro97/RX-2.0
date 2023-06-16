@@ -17,14 +17,6 @@ $name = filter_var($_GET['name'], FILTER_SANITIZE_STRING);
 
 
 
-//code
-//code
-
-
-
-
-
-
 $rewards = \json_decode(file_get_contents($db), true);
 foreach($rewards as $reward) {
     if ($reward['reaction'] === $RX_reward) {
@@ -60,9 +52,7 @@ $users[] = [
 
   unlink($file) */
 
-
-
-
+
 
 
 ?><!DOCTYPE html>
@@ -75,10 +65,7 @@ $users[] = [
     <title>Results for search: <?php echo $RX_reward ?></title>
   </head>
   <link rel="stylesheet" href="rx_reward_page.css">
-   
-
- 
-
+   
 
 <button class="btn">
 
@@ -189,10 +176,7 @@ endif;
       </filter>
   </defs>
 </svg>
-
-
-  
- 
+ 
 
   <div class="container">
   <div class="center">
@@ -567,25 +551,14 @@ function download_image_svg(){
   link.href = image;
   link.click();
 }
-
-
-
-
+
 
 
 </script>";
 
 
 
-
-
 ?> 
-
-
-
-
-
-
 
 
 
@@ -594,12 +567,7 @@ function download_image_svg(){
         </div>
       </div>
     </div>
-
-
-
-   
-
-
+
 
       <script>
 
@@ -644,13 +612,10 @@ console.log(canvas)
 
 }
 
-
-
+
   </script>
 
-
-
-
+
 
 </div>
 
@@ -665,9 +630,7 @@ console.log(canvas)
 
 
 <script>
-
-
-
+
 
 </script>
   </body>
